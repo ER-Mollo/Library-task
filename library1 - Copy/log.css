@@ -1,0 +1,10 @@
+
+const myForm = document.getElementById("myForm"); 
+const fname = document.getElementById("fname");
+const pass = document.getElementById("pass");
+
+//check errors for login
+// myForm.addEventListener('submit', (e) => {
+//     e.preventDefault();
+//     check();
+// });

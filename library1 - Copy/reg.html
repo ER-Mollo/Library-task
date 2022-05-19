@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="syle.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <div id="reg">
+        <div class="reg">
+            <form id="form" class="form" method="POST">
+                <h1>CREATE ACCOUNT</h1>
+                <div class="items">
+                    <label for="name">Enter Fullname(s)</label><small >error</small>
+                    <input type="text" class="control" id="fname" placeholder="e.g Ellen" name="fname">
+                </div>
+                <div class="items">
+                    <label for="surname">Enter Lastname(s)</label><small >error</small>
+                    <input type="text" class="control" id="last" placeholder="e.g Ellen" name="last">
+                </div>
+                <div class="items">
+                    <label for="cell">Cellphone Number</label><small >error</small>
+                    <input type="text" class="control" id="cell" placeholder="+27 0000 0000" name="cell">
+                </div>
+                <div class="items">
+                    <label for="email">Email Address</label><small >error</small>
+                    <input type="text" class="control" id="email" placeholder="example@eg.com" name="email">
+                </div>
+                <div class="items">
+                    <label for="pass">Create Password</label><small >error</small>
+                    <input type="password" class="control" id="pass" placeholder="********" name="pass">
+                </div>
+                <div class="items">
+                    <label>Select Image File</label><small >error</small>
+                    <input type="file" class="control" id="img" name="img">
+                </div>
+               
+                <button value="send">Submit</button>
+                <p class="log"><a href="index.html">Already have an account....</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<html>

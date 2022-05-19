@@ -1,0 +1,380 @@
+body{ 
+    margin: 0;
+}
+/*board*/
+/* menubar */
+#main{
+    padding-top: 0;
+    margin-top: 50px;
+    width:100%;
+    display:flex;
+}
+
+.left{
+    position: relative;
+    direction: flex;
+    padding: 0;
+    float:left;
+
+}
+.left .top{
+    padding: 0;
+    align-items: center;
+    padding-right: 150px;
+}
+.left .info{
+    background-color: burlywood;
+    padding-right: 35px;
+    width: 210px;
+    border-radius: 0 40px 40px 0;
+}
+.top img{
+    width:50px;
+    height:50px;
+    padding: 50px;
+    float: center;
+    padding-bottom: 0;
+    padding-top: 20px;
+    border-radius: 100px;
+}
+.top p{
+    text-align: center;
+    font-size: .9rem;
+    padding-top: 0%;
+}
+.top nav{
+    text-align: center;
+    font-style: bold;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.left ul{
+
+    list-style: none;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.left li{
+    padding-top: 30px;
+}
+.left li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
+    font-family: 3;
+    padding: 10px;  
+}
+.left li a:hover{
+    border-bottom: solid 1px brown;
+}
+/* .left .li a:hover{
+    background-color: orange;
+} */
+/* top right section */
+.right{
+ padding-top: 0;
+ background-color: rgb(253, 246, 237);
+}
+/* #right{
+    display: none;
+} */
+.right .top{
+    padding: 0;
+    width: 100%;
+    
+}
+.right .list{
+    padding: 10px;
+
+}
+.right .list .items{
+    padding: 10px;
+    display: inline;
+    padding-left: 30px;
+}
+.right .top .items a{
+    text-decoration: none;
+    padding: 30px;
+    padding-left: 100px;
+    color: black;
+    font-size: 1.2rem;
+}
+.right .top .items a:hover{
+    color: brown;
+}
+.right .top .items button{
+    width: 25px;
+    height:25px;
+    background-image: url("./images/search.png");
+    background-size: cover;
+    border: solid .1rem rgb(187, 184, 184);
+}
+.right .top .items button:hover{
+    border: solid .1rem rgb(126, 83, 3);
+}
+.readText{
+    padding:20px;
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+.nr{
+    padding:20px;
+    padding-top: 100px;
+    padding-bottom: 0;
+    font-size: 1.5rem;
+}
+/* .right .top .items a img{
+    
+} */
+
+/* style read books section */
+.read{
+    padding:50px;
+    display:flex;
+    padding: 10px;
+}
+
+
+.read .books{
+    display:flex;
+    background-color:burlywood;
+    padding:10px;
+    height:130px;
+    border-radius:20px;   
+}
+.read .books img{
+    width: 150px;
+    height: 220px;
+    border-radius:15px;
+    box-shadow: 5px 5px 30px rgba(117, 72, 30, 0.918);
+}
+
+.read .book{
+    padding:20px;
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+}
+/* new release section */
+.Nr{
+    padding: 50px;
+    display:flex; 
+    padding-right: 0;
+}
+.Nr .book{
+    padding:28px;
+    display:flex;
+    position:relative;
+    justify-content: space-between;
+}
+.Nr .books{
+    padding: 10px;
+}
+.Nr .books img{
+    width:100px;
+    height: 150px;
+    border-radius: 10px;
+}
+.Nr .books h1{
+    font-size: 1rem;
+}
+.Nr .books p{
+    font-size: .7rem;
+}
+.Nr .books button{
+    border-color: rgb(189, 115, 5);
+    border-radius: 5px;
+    width: 100px;
+}
+
+.Nr .books button:hover{
+    background-color: rgb(247, 197, 131);
+}
+
+.author{
+    padding: 5px;
+    padding-left: 180px;
+    padding-right: 0;
+}
+.author .fa{
+    display:flex;
+    padding: 10px;
+}
+.author .fa img{
+    width:50px;
+    height: 50px;
+    border-radius: 40%;
+}
+.author .info{
+    padding-left: 50px;
+}
+.author .fa h2{
+    font-size: .8rem;
+}
+.author .fa p{
+    font-size: .6rem;
+}
+.author .content{
+    background-color: rgb(230, 220, 201);
+    padding: 5px;
+    border-radius: 25px 0 0 25px;
+}
+.author h1{
+    font-size: 1.8rem;
+}
+
+
+/*login section*/
+#login{
+    position: fixed;
+    margin:0;
+    background-image: url("./images/lab.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+}
+
+.login{
+    background-color: rgb(51, 28, 2);
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 30px rgba(117, 72, 30, 0.918);
+    padding: 15px;
+
+}
+
+.login form button{
+    width:700px;
+    background-color: rgb(187, 86, 19);
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+}
+.login h1{
+    text-align: center;
+    color: blanchedalmond;
+}
+.login form button:hover{
+    background-color: rgb(236, 218, 199);
+    color: rgb(51, 28, 2);
+}
+.login .create{
+    text-align: center;
+}
+.login .create a{
+    color:rgb(163, 156, 156);
+    text-decoration: none;
+}
+
+
+/*registration section*/
+#reg{
+    position: fixed;
+    margin:0;
+    background-image: url("./images/books.jpg");
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+}
+#reg h1{
+    text-align: center;
+    padding-top: 15px;
+    color:rgb(250, 243, 236)
+}
+.reg{
+    background-color: rgb(51, 28, 2);
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 30px rgba(117, 72, 30, 0.918);
+    padding: 9px;
+    
+}
+.items{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 25px;
+}
+.items input{
+    height: 25px;
+    border: none;
+}
+.items input:hover{
+    border: 2px solid rgb(194, 94, 0);
+}
+.items label{
+    color: rgb(236, 218, 199);
+    font-size: 1rem;
+}
+.reg button{
+    padding: 10px;
+    width: 600px;
+    color: rgb(194, 94, 0);
+    background-color:blanchedalmond;
+}
+.reg button:hover{
+    background-color: rgb(194, 94, 0);
+    color:blanchedalmond;
+}
+.form small{
+    visibility:hidden;
+}
+.form .items.error .control{
+    border: 2px solid red;
+}
+.form .items.error small{
+    visibility:visible;
+    color: red;
+}
+.reg .log{
+    text-align: center;
+}
+.reg .log a{
+    color:rgb(163, 156, 156);
+    text-decoration: none;
+}
+
+.drama{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1900px) {
+    #reg{
+        width: 100%;
+        height: 100vh;
+        padding-top: 40px;
+    }
+    #reg h1{
+        padding-top: 10px;
+    }
+    .reg{
+        width: 500px;
+        padding: 9px;
+        
+    }
+    .items{
+       padding-bottom: 10px;
+    }
+    .items input{
+        height: 20px;
+    }
+    .reg button{
+        padding: 10px;
+        width: 500px;
+    }
+
+    .left .top{
+        padding-right: 100px;
+    }
+    .left .info{
+        padding-right: 30px;
+        width: 200px;
+    }
+
+
+  }
